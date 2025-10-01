@@ -1,0 +1,59 @@
+/* ===== GLOBAL RESET & FONT ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffccd5; /* Background warna pink */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: #333333; /* Teks utama jadi gelap agar kontras dengan pink */
+}
+
+/* ===== FORM CARD ===== */
+.form-card {
+  background-color: #ffffff; /* Putih, agar kontras dengan pink */
+  color: #333;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.form-card h1 {
+  color: #d6336c; /* Warna pink gelap untuk judul */
+}
+
+.form-card p {
+  color: #555555;
+}
+
+.registration-form label {
+  color: #333333;
+}
+
+.registration-form input,
+.registration-form select {
+  background-color: #f9f9f9;
+  color: #333333;
+  border: 1px solid #ccc;
+}
+
+.registration-form input::placeholder {
+  color: #aaa;
+}
+
+.registration-form input:focus,
+.registration-form select:focus {
+  border-color: #d6336c;
+  box-shadow: 0 0 0 2px rgba(214, 51, 108, 0.3);
+}
+
+/* ===== BUTTON ===== */
+.submit-btn {
+  background: linear-gradient(to right, #d6336c, #ff6f91); /* Gradasi pink */
+  color: white;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(to right, #b02a5d, #e15b80);
+}
